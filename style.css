@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Poppins:wght@300;400&family=Pragati+Narrow:wght@700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 24, 147, 255);
+
+}
+
+.navBar {
+    margin-top: 50px;
+
+}
+
+.container {
+    width: 972px;
+    /* height: 60px; */
+    margin-inline: auto;
+    overflow: hidden;
+    padding: 20px;
+
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo-text {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    /* margin-left: 30px; */
+    position: absolute;
+    left: 320px;
+}
+
+.logo ul {
+    display: flex;
+    margin-left: 320px;
+    gap: 25px;
+
+
+}
+
+ul li {
+    list-style-type: none;
+
+}
+
+ul li a {
+
+    text-decoration: none;
+
+    color: white
+}
+
+.btn {
+    /* height: 100px; */
+    margin-right: 40px;
+
+
+}
+
+.purchase-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px;
+    background-color: rgba(233, 58, 125, 255);
+    border-radius: 50px;
+
+}
+
+.hero-main {
+    /* height: 1000px; */
+}
+
+.hero-container {
+    /* background-color: burlywood; */
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.left-container {
+    width: 50%;
+    display: flex;
+    /* flex-direction: column;   */
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 50px; */
+
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.left h2 {
+    color: white;
+    width: 90%;
+    font-size: 2.6em;
+
+}
+
+.left p {
+    color: white;
+    width: 70%;
+}
+
+.learn-btn {
+    text-decoration: none;
+    border-radius: 50px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(233, 58, 125, 255);
+    color: white;
+}
+
+.right-form {
+    width: 50%;
+    /* background-color: blanchedalmond; */
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 75%;
+    height: 450px;
+}
+
+.form h1 {
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(48, 33, 111, 255);
+    font-size: xx-large;
+}
+
+.form .user {
+    width: 75%;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid rgba(188, 188, 198, 255);
+
+}
+
+.form .check {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+
+}
+
+.form .check span {
+    color: rgba(188, 188, 198, 255);
+}
+
+.form .signIn-btn {
+    text-decoration: none;
+
+    padding: 7px 105px;
+    border-radius: 50px;
+    background-color: rgba(72, 43, 231, 255);
+    color: white;
+}
+
+.form p {
+    color: rgba(188, 188, 198, 255);
+}
+
+.form .login-btn {
+    text-decoration: none;
+
+    padding: 7px 67px;
+    border-radius: 50px;
+    background-color: rgba(29, 161, 242, 255);
+    color: white;
+}
+
+.form h5 {
+    margin-top: 20px;
+    color: rgba(188, 188, 198, 255);
+
+}
+
+h5 span {
+    color: rgba(68, 223, 205, 255);
+    cursor: pointer;
+}
