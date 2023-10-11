@@ -25,7 +25,6 @@ body {
 
 .container {
     width: 972px;
-    /* height: 60px; */
     margin-inline: auto;
     overflow: hidden;
     padding: 20px;
@@ -52,7 +51,6 @@ body {
     color: white;
     font-size: x-large;
     font-weight: bold;
-    /* margin-left: 30px; */
     position: absolute;
     left: 320px;
 }
@@ -78,7 +76,7 @@ ul li a {
 }
 
 .btn {
-    /* height: 100px; */
+
     margin-right: 40px;
 
 
@@ -93,12 +91,8 @@ ul li a {
 
 }
 
-.hero-main {
-    /* height: 1000px; */
-}
 
 .hero-container {
-    /* background-color: burlywood; */
     height: 460px;
     display: flex;
     flex-direction: row;
@@ -109,10 +103,9 @@ ul li a {
 .left-container {
     width: 50%;
     display: flex;
-    /* flex-direction: column;   */
     justify-content: flex-start;
     align-items: center;
-    /* gap: 50px; */
+
 
 
 }
@@ -120,8 +113,6 @@ ul li a {
 .left {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
     margin-left: 100px;
     gap: 30px;
 }
@@ -150,7 +141,6 @@ ul li a {
 
 .right-form {
     width: 50%;
-    /* background-color: blanchedalmond; */
     height: 460px;
     display: flex;
     justify-content: center;
